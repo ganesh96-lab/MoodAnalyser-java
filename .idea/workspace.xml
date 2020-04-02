@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7af60afc-9887-4471-8d98-4c5439b6125f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZyMifcWOXWo8P2lS2CAyj8hgxJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="Gradle.MoodAnalyserTest">
+    <configuration name="MoodAnalyserTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.moodanalyser.MoodAnalyserTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MoodAnalyserTest.givenNULLMessage_shouldReturn_Happy" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.moodanalyser.MoodAnalyserTest.givenNULLMessage_shouldReturn_Happy&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.MoodAnalyserTest" />
+        <item itemvalue="Gradle.MoodAnalyserTest.givenNULLMessage_shouldReturn_Happy" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7af60afc-9887-4471-8d98-4c5439b6125f" name="Default Changelist" comment="" />
+      <created>1585807008235</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585807008235</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="678" height="160" key="GridCell.Tab.0.bottom" timestamp="1585821833864">
+      <screen x="61" y="27" width="1305" height="741" />
+    </state>
+    <state width="678" height="160" key="GridCell.Tab.0.bottom/61.27.1305.741@61.27.1305.741" timestamp="1585821833864" />
+    <state width="678" height="160" key="GridCell.Tab.0.center" timestamp="1585821833863">
+      <screen x="61" y="27" width="1305" height="741" />
+    </state>
+    <state width="678" height="160" key="GridCell.Tab.0.center/61.27.1305.741@61.27.1305.741" timestamp="1585821833863" />
+    <state width="678" height="160" key="GridCell.Tab.0.left" timestamp="1585821833862">
+      <screen x="61" y="27" width="1305" height="741" />
+    </state>
+    <state width="678" height="160" key="GridCell.Tab.0.left/61.27.1305.741@61.27.1305.741" timestamp="1585821833862" />
+    <state width="678" height="160" key="GridCell.Tab.0.right" timestamp="1585821833863">
+      <screen x="61" y="27" width="1305" height="741" />
+    </state>
+    <state width="678" height="160" key="GridCell.Tab.0.right/61.27.1305.741@61.27.1305.741" timestamp="1585821833863" />
+    <state x="218" y="49" width="662" height="715" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585811748286">
+      <screen x="61" y="27" width="1305" height="741" />
+    </state>
+    <state x="218" y="49" width="662" height="715" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/61.27.1305.741@61.27.1305.741" timestamp="1585811748286" />
+    <state x="376" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1585821674402">
+      <screen x="61" y="27" width="1305" height="741" />
+    </state>
+    <state x="376" y="89" width="672" height="678" key="search.everywhere.popup/61.27.1305.741@61.27.1305.741" timestamp="1585821674402" />
+  </component>
+</project>
