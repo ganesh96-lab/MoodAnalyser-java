@@ -23,10 +23,8 @@ public class MoodAnalyserTest
     }
 
     @Test
-    public void givenNullMessage_whenNull_shouldThrowMoodAnalysisException()
-    {
-        try
-        {
+    public void givenNullMessage_whenNull_shouldThrowMoodAnalysisException() {
+        try {
             MoodAnalyser moodAnalyser=new MoodAnalyser(null);
             String mood=moodAnalyser.analyseMood();
         }catch (MoodAnalysisException moodAnalysisException)
@@ -46,10 +44,8 @@ public class MoodAnalyserTest
     }
 
     @Test
-    public void givenMoodAnalyser_whenProper_shouldReturnObject()
-    {
-        try
-        {
+    public void givenMoodAnalyser_whenProper_shouldReturnObject() {
+        try {
             Constructor constructor = Class.forName("com.bridgelabz.moodanalyser.MoodAnalyser").getConstructor();
             Object reflectionObject = constructor.newInstance();
             MoodAnalyser moodAnalyser = (MoodAnalyser) reflectionObject;
@@ -59,6 +55,32 @@ public class MoodAnalyserTest
             e.printStackTrace();
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+        } catch (InvocationTargetException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void givenMoodAnalyser_whenImProper_shouldThrowMoodAnalysisException() {
+        try {
+            Constructor constructor = Class.forName("com.bridgelabz.MoodAnalyser").getConstructor();
+            Object reflectionObject = constructor.newInstance();
+            MoodAnalyser moodAnalyser = (MoodAnalyser) reflectionObject;
+            MoodAnalyser realMoodObject = new MoodAnalyser();
+        } catch (NoSuchMethodException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            try {
+                throw new MoodAnalysisException(MoodAnalysisException.ExceptionType.CLASS_NOT_FOUND,
+                        "Invalid class name");
+            }catch (MoodAnalysisException moodAnalysisException){
+                Assert.assertEquals(MoodAnalysisException.ExceptionType.CLASS_NOT_FOUND,
+                        moodAnalysisException.type);
+            }
         } catch (IllegalAccessException e) {
             e.printStackTrace();
         } catch (InstantiationException e) {
