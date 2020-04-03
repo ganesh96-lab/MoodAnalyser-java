@@ -2,10 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7af60afc-9887-4471-8d98-4c5439b6125f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/moodanalyser/MoodAnalyser.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/moodanalyser/MoodAnalyser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/bridgelabz/moodanalyser/MoodAnalyserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/bridgelabz/moodanalyser/MoodAnalyserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.bridgelabz.moodanalyser.MoodAnalyserTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.bridgelabz.moodanalyser.MoodAnalyserTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.bridgelabz.moodanalyser.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.bridgelabz.moodanalyser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.bridgelabz.moodanalyser.MoodAnalyserTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.bridgelabz.moodanalyser.MoodAnalyserTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/moodanalyser/MoodAnalyser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/moodanalyser/MoodAnalyser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelabz/moodanalyser/MoodAnalyserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/moodanalyser/MoodAnalyserTest.java" afterDir="false" />
     </list>
@@ -18,6 +32,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,6 +65,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/bridgelabz/moodanalyser" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.bridgelabz.moodanalyser.exceptions" />
+    </key>
   </component>
   <component name="RunManager" selected="Gradle.MoodAnalyserTest">
     <configuration name="MoodAnalyserTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -83,12 +112,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MoodAnalyserTest.givenNULLMessage_shouldReturn_Happy" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MoodAnalyserTest.givenMessage_whenEmpty_shouldThrowMoodAnalysisException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.moodanalyser.MoodAnalyserTest.givenNULLMessage_shouldReturn_Happy&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.moodanalyser.MoodAnalyserTest.givenMessage_whenEmpty_shouldThrowMoodAnalysisException&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -103,12 +132,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MoodAnalyserTest.givenNullMessage_shouldReturnHappyMood" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MoodAnalyserTest.givenNullMessage_whenNull_shouldThrowMoodAnalysisException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.moodanalyser.MoodAnalyserTest.givenNullMessage_shouldReturnHappyMood&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.moodanalyser.MoodAnalyserTest.givenNullMessage_whenNull_shouldThrowMoodAnalysisException&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -146,10 +175,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.MoodAnalyserTest" />
-        <item itemvalue="Gradle.MoodAnalyserTest.givenSadMessage_shouldReturnSadMood" />
+        <item itemvalue="Gradle.MoodAnalyserTest.givenMessage_whenEmpty_shouldThrowMoodAnalysisException" />
+        <item itemvalue="Gradle.MoodAnalyserTest.givenNullMessage_whenNull_shouldThrowMoodAnalysisException" />
         <item itemvalue="Gradle.MoodAnalyserTest.givenHappyMessage_shouldReturnHappyMood" />
-        <item itemvalue="Gradle.MoodAnalyserTest.givenNullMessage_shouldReturnHappyMood" />
-        <item itemvalue="Gradle.MoodAnalyserTest.givenNULLMessage_shouldReturn_Happy" />
+        <item itemvalue="Gradle.MoodAnalyserTest.givenSadMessage_shouldReturnSadMood" />
       </list>
     </recent_temporary>
   </component>
@@ -167,34 +196,38 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="521" y="115" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1585895172168">
+      <screen x="61" y="27" width="1305" height="741" />
+    </state>
+    <state x="521" y="115" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/61.27.1305.741@61.27.1305.741" timestamp="1585895172168" />
     <state x="496" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1585842593319">
       <screen x="61" y="27" width="1305" height="741" />
     </state>
     <state x="496" y="154" width="424" height="484" key="FileChooserDialogImpl/61.27.1305.741@61.27.1305.741" timestamp="1585842593319" />
-    <state width="1259" height="26" key="GridCell.Tab.0.bottom" timestamp="1585891761378">
+    <state width="1259" height="233" key="GridCell.Tab.0.bottom" timestamp="1585902016793">
       <screen x="61" y="27" width="1305" height="741" />
     </state>
-    <state width="1259" height="26" key="GridCell.Tab.0.bottom/61.27.1305.741@61.27.1305.741" timestamp="1585891761378" />
-    <state width="1259" height="26" key="GridCell.Tab.0.center" timestamp="1585891761375">
+    <state width="1259" height="233" key="GridCell.Tab.0.bottom/61.27.1305.741@61.27.1305.741" timestamp="1585902016793" />
+    <state width="1259" height="233" key="GridCell.Tab.0.center" timestamp="1585902016792">
       <screen x="61" y="27" width="1305" height="741" />
     </state>
-    <state width="1259" height="26" key="GridCell.Tab.0.center/61.27.1305.741@61.27.1305.741" timestamp="1585891761375" />
-    <state width="1259" height="26" key="GridCell.Tab.0.left" timestamp="1585891761364">
+    <state width="1259" height="233" key="GridCell.Tab.0.center/61.27.1305.741@61.27.1305.741" timestamp="1585902016792" />
+    <state width="1259" height="233" key="GridCell.Tab.0.left" timestamp="1585902016792">
       <screen x="61" y="27" width="1305" height="741" />
     </state>
-    <state width="1259" height="26" key="GridCell.Tab.0.left/61.27.1305.741@61.27.1305.741" timestamp="1585891761364" />
-    <state width="1259" height="26" key="GridCell.Tab.0.right" timestamp="1585891761376">
+    <state width="1259" height="233" key="GridCell.Tab.0.left/61.27.1305.741@61.27.1305.741" timestamp="1585902016792" />
+    <state width="1259" height="233" key="GridCell.Tab.0.right" timestamp="1585902016793">
       <screen x="61" y="27" width="1305" height="741" />
     </state>
-    <state width="1259" height="26" key="GridCell.Tab.0.right/61.27.1305.741@61.27.1305.741" timestamp="1585891761376" />
+    <state width="1259" height="233" key="GridCell.Tab.0.right/61.27.1305.741@61.27.1305.741" timestamp="1585902016793" />
     <state x="202" y="31" key="SettingsEditor" timestamp="1585891997231">
       <screen x="61" y="27" width="1305" height="741" />
     </state>
     <state x="202" y="31" key="SettingsEditor/61.27.1305.741@61.27.1305.741" timestamp="1585891997231" />
-    <state x="485" y="176" width="446" height="440" key="chooseDestDirectoryDialog" timestamp="1585825849861">
+    <state x="485" y="176" width="446" height="440" key="chooseDestDirectoryDialog" timestamp="1585893880693">
       <screen x="61" y="27" width="1305" height="741" />
     </state>
-    <state x="485" y="176" width="446" height="440" key="chooseDestDirectoryDialog/61.27.1305.741@61.27.1305.741" timestamp="1585825849861" />
+    <state x="485" y="176" width="446" height="440" key="chooseDestDirectoryDialog/61.27.1305.741@61.27.1305.741" timestamp="1585893880693" />
     <state x="218" y="49" width="662" height="715" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585811748286">
       <screen x="61" y="27" width="1305" height="741" />
     </state>
@@ -203,9 +236,9 @@
       <screen x="61" y="27" width="1305" height="741" />
     </state>
     <state x="377" y="175" key="run.anything.popup/61.27.1305.741@61.27.1305.741" timestamp="1585888204250" />
-    <state x="376" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1585821674402">
+    <state x="376" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1585896507860">
       <screen x="61" y="27" width="1305" height="741" />
     </state>
-    <state x="376" y="89" width="672" height="678" key="search.everywhere.popup/61.27.1305.741@61.27.1305.741" timestamp="1585821674402" />
+    <state x="376" y="89" width="672" height="678" key="search.everywhere.popup/61.27.1305.741@61.27.1305.741" timestamp="1585896507860" />
   </component>
 </project>

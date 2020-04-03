@@ -3,6 +3,9 @@ import com.bridgelabz.moodanalyser.exceptions.MoodAnalysisException;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
+
 public class MoodAnalyserTest
 {
     @Test
@@ -30,7 +33,6 @@ public class MoodAnalyserTest
         {
             Assert.assertEquals("Invalid message", moodAnalysisException.getMessage());
         }
-
     }
 
     @Test
@@ -40,6 +42,29 @@ public class MoodAnalyserTest
             String mood = moodAnalyser.analyseMood();
         }catch (MoodAnalysisException moodAnalysisException) {
             Assert.assertEquals("Empty Mood", moodAnalysisException.getMessage());
+        }
+    }
+
+    @Test
+    public void givenMoodAnalyser_whenProper_shouldReturnObject()
+    {
+        try
+        {
+            Constructor constructor = Class.forName("com.bridgelabz.moodanalyser.MoodAnalyser").getConstructor();
+            Object reflectionObject = constructor.newInstance();
+            MoodAnalyser moodAnalyser = (MoodAnalyser) reflectionObject;
+            MoodAnalyser realMoodObject = new MoodAnalyser();
+            Assert.assertTrue(realMoodObject.equals(moodAnalyser));
+        } catch (NoSuchMethodException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+        } catch (InvocationTargetException e) {
+            e.printStackTrace();
         }
     }
 }
