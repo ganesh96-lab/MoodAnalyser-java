@@ -42,5 +42,4 @@ public class MoodAnalyserTest
             Assert.assertEquals("Empty Mood", moodAnalysisException.getMessage());
         }
     }
-
 }
