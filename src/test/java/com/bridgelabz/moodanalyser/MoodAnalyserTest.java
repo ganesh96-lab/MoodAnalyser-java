@@ -120,6 +120,23 @@ public class MoodAnalyserTest
         Method methodObject=cls.getDeclaredMethod("analyseMood");
         String mood=(String) methodObject.invoke(moodAnalyser);
         Assert.assertEquals("HAPPY",mood);
+    }
+
+    @Test
+    public void givenImproperFieldName_shouldThrowException() throws IllegalAccessException {
+        MoodAnalyser moodAnalyser=new MoodAnalyser("sad");
+        Class<?>cls=moodAnalyser.getClass();
+        Field field=null;
+        try {
+            field=cls.getDeclaredField("mood");
+            field.set(moodAnalyser,"happy");
+        }catch (NoSuchFieldException e) {
+            try {
+                throw new MoodAnalysisException(MoodAnalysisException.ExceptionType.NO_SUCH_FIELD,"No_such_field");
+            } catch (MoodAnalysisException ex) {
+                Assert.assertEquals(MoodAnalysisException.ExceptionType.NO_SUCH_FIELD,ex.type);
+            }
+        }
 
     }
 }

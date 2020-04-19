@@ -5,7 +5,8 @@ public class MoodAnalysisException extends Exception {
         NULL,
         CLASS_NOT_FOUND,
         EMPTY,
-        NO_SUCH_METHOD;
+        NO_SUCH_METHOD,
+         NO_SUCH_FIELD;
     };
     public ExceptionType type;
     public MoodAnalysisException(ExceptionType type,String message) {
