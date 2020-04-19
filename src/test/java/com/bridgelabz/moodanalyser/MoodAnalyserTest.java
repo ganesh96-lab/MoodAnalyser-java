@@ -137,6 +137,13 @@ public class MoodAnalyserTest
                 Assert.assertEquals(MoodAnalysisException.ExceptionType.NO_SUCH_FIELD,ex.type);
             }
         }
+    }
 
+    @Test
+    public void givenNullValueField_shouldThrowException() throws NoSuchFieldException, IllegalAccessException {
+        MoodAnalyser moodAnalyser=new MoodAnalyser();
+        Class<?> cls=moodAnalyser.getClass();
+        Field field=cls.getDeclaredField("message");
+        field.set(moodAnalyser,null);
     }
 }
