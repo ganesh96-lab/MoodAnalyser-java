@@ -92,4 +92,22 @@ public class MoodAnalyserTest
             e.printStackTrace();
         }
     }
+
+    @Test
+    public void givenHappyMessage_whenImproperMethod_shouldThrowMoodAnalyserException() throws InvocationTargetException, IllegalAccessException {
+        try {
+            MoodAnalyser moodAnalyser = new MoodAnalyser("i am in happy");
+            Class<?> cls = moodAnalyser.getClass();
+            Method methodObject = cls.getDeclaredMethod("analyseMoo");
+            String mood = (String) methodObject.invoke(moodAnalyser);
+            Assert.assertEquals("SAD", mood);
+        }catch (NoSuchMethodException e){
+            try {
+                throw new MoodAnalysisException(MoodAnalysisException.ExceptionType.NO_SUCH_METHOD,"NO_SUCH_METHOD");
+            } catch (MoodAnalysisException ex) {
+                Assert.assertEquals(MoodAnalysisException.ExceptionType.NO_SUCH_METHOD,ex.type);
+            }
+
+        }
+    }
 }
