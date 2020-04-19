@@ -5,6 +5,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
@@ -107,7 +108,18 @@ public class MoodAnalyserTest
             } catch (MoodAnalysisException ex) {
                 Assert.assertEquals(MoodAnalysisException.ExceptionType.NO_SUCH_METHOD,ex.type);
             }
-
         }
+    }
+
+    @Test
+    public void givenChangeMoodDynamically() throws NoSuchFieldException, NoSuchMethodException, InvocationTargetException, IllegalAccessException {
+        MoodAnalyser moodAnalyser=new MoodAnalyser("sad");
+        Class<?> cls=moodAnalyser.getClass();
+        Field field=cls.getDeclaredField("message");
+        field.set(moodAnalyser,"happy");
+        Method methodObject=cls.getDeclaredMethod("analyseMood");
+        String mood=(String) methodObject.invoke(moodAnalyser);
+        Assert.assertEquals("HAPPY",mood);
+
     }
 }
