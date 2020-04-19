@@ -6,20 +6,25 @@ import org.junit.Test;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 
 public class MoodAnalyserTest
 {
     @Test
-    public void givenSadMessage_shouldReturnSadMood() throws MoodAnalysisException {
+    public void givenSadMessage_shouldReturnSadMood() throws MoodAnalysisException, NoSuchMethodException, InvocationTargetException, IllegalAccessException {
         MoodAnalyser moodAnalyser = new MoodAnalyser("i am in sad");
-        String mood = moodAnalyser.analyseMood();
+        Class<?> cls = moodAnalyser.getClass();
+        Method methodObject = cls.getDeclaredMethod("analyseMood");
+        String mood = (String) methodObject.invoke(moodAnalyser);
         Assert.assertEquals("SAD", mood);
     }
 
     @Test
-    public void givenHappyMessage_shouldReturnHappyMood() throws MoodAnalysisException {
+    public void givenHappyMessage_shouldReturnHappyMood() throws MoodAnalysisException, NoSuchMethodException, InvocationTargetException, IllegalAccessException {
         MoodAnalyser moodAnalyser=new MoodAnalyser("i am in happy mood");
-        String mood=moodAnalyser.analyseMood();
+        Class<?> cls = moodAnalyser.getClass();
+        Method methodObject = cls.getDeclaredMethod("analyseMood");
+        String mood = (String) methodObject.invoke(moodAnalyser);
         Assert.assertEquals("HAPPY", mood);
     }
 
@@ -46,7 +51,6 @@ public class MoodAnalyserTest
 
     @Test
     public void givenMoodAnalyser_whenProper_shouldReturnObject() {
-        
             MoodAnalyser moodAnalyserObject = MoodAnalyserFactory.getMoodAnalyserObject();
             MoodAnalyser moodAnalyser = new MoodAnalyser();
             Assert.assertTrue(moodAnalyser.equals(moodAnalyserObject));
